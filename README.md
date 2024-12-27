@@ -1,1 +1,3 @@
-# MODFLOW6
+# Groundwater Modeling Using MODFLOW 6
+
+This repository presents a comprehensive groundwater modeling project for the Quetta region using MODFLOW 6, a cutting-edge numerical groundwater flow modeling tool developed by the USGS. The project focuses on simulating groundwater flow dynamics, evaluating aquifer properties, and providing insights for sustainable water resource management. The model represents the hydrogeology of the Quetta region, including aquifer layers, boundary conditions, and recharge zones, while integrating local topography and hydroclimatic data for accuracy. It incorporates surface-groundwater interactions using the Streamflow Routing (SFR) package and includes calibrated aquifer properties such as hydraulic conductivity and specific yield. Groundwater recharge zones are derived from precipitation and infiltration data, while abstraction data accounts for domestic, agricultural, and industrial usage.
