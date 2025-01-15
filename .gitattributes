@@ -1,0 +1,17 @@
+# General line-ending management
+* text=auto         # Automatically detect text files and normalize their line endings
+
+# Enforce LF line endings for specific file types
+*.py text eol=lf    # Python files
+*.sh text eol=lf    # Shell scripts
+
+# Enforce CRLF line endings for specific file types
+*.bat text eol=crlf # Batch files
+
+# Binary files (Git won't try to normalize line endings)
+*.jpg binary
+*.png binary
+*.exe binary
+
+# Exclude specific files from normalization
+*.md -text          # Markdown files (retain original line endings)
