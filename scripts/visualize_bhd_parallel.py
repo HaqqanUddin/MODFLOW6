@@ -36,8 +36,8 @@ for i, ax in enumerate(axes):
     ax.set_title(f"Submodel {i}", pad=20, fontsize=12)
     
     # Set labels for x and y axes
-    ax.set_xlabel("Distance (m)", fontsize=10)
-    ax.set_ylabel("Head (m)", fontsize=10)
+    ax.set_xlabel("Distance", fontsize=10)
+    ax.set_ylabel("Distance", fontsize=10)
     
     # Invert the y-axis to correct the orientation
     ax.invert_yaxis()

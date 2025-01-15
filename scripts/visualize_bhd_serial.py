@@ -17,9 +17,9 @@ plt.pcolormesh(head, cmap='cividis', shading='auto')
 plt.colorbar(label="Head (m)")
 
 # Set labels and title
-plt.title("Head Distribution at Last Time Step")
-plt.xlabel("Heads (m)")
-plt.ylabel("Distance (m)")
+plt.title("Head Distribution")
+plt.xlabel("Distance")
+plt.ylabel("Distance")
 
 # Invert the Y-axis to correct the orientation
 plt.gca().invert_yaxis()
